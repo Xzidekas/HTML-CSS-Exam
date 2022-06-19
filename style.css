@@ -29,11 +29,20 @@ nav a {
 
 .main_section1 {
     display: flex;
+    margin-bottom: 40px;
 }
 
-.left_side {
+.content_side {
     flex: 1;
     margin-top: 20px;
+}
+
+.content_side h1 {
+    font-size: 50px;
+}
+
+.content_side p {
+    color: #5e5e5e;
 }
 
 button {
@@ -47,14 +56,24 @@ button {
     padding: 15px 40px;
 }
 
-.right_side {
+.image_side {
     flex: 1;
 }
 
-.right_side img {
+.image_side img {
     max-width: 100%;
     min-height: 400px;
     min-width: 400px;
+}
+
+.main_section2 {
+    background: url(/assets/background.svg);
+    padding: 100px 40px 40px 40px;
+    border-radius: 15px;
+}
+
+.main_section2 h1 {
+    font-weight: lighter;
 }
 
 

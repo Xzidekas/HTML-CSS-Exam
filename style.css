@@ -42,7 +42,8 @@ nav a {
     font-size: 40px;
 }
 
-.content_side p {
+.content_side p,
+.main_section4 p {
     color: #5e5e5e;
 }
 
@@ -75,7 +76,8 @@ button {
     padding: 100px 40px 40px 40px;
 }
 
-.main_section2 h1 {
+.main_section2 h1,
+.main_section4 h1 {
     font-weight: lighter;
 }
 
@@ -91,6 +93,55 @@ button {
     display: none;
 }
 
+.main_section4 a {
+    color: #5e5e5e;
+    font-weight: bold;
+}
+
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+
+.background {
+    background-color: #eee;
+    width: 290px;
+    border-radius: 16px;
+}
+
+.main_section4 table {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.top_row {
+    font-size: smaller;
+    color: #5e5e5e;
+}
+
+.middle_row {
+    font-size: large;
+    font-weight: 100;
+}
+
+.bottom_row {
+    color: #5e5e5e;
+}
+
+.orange {
+    color: #fd8a4a;
+}
+
+.left_column {
+    text-align: left;
+}
+
+.right_column {
+    text-align: right;
+}
 
 .important {
     color: #ff3998;

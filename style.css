@@ -35,10 +35,11 @@ nav a {
 .content_side {
     flex: 1;
     margin-top: 20px;
+    min-width: 320px;
 }
 
 .content_side h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .content_side p {
@@ -62,21 +63,33 @@ button {
 
 .image_side img {
     max-width: 100%;
-    min-height: 400px;
-    min-width: 400px;
+    min-width: 300px;
 }
 
 .main_section2 {
     background: url(/assets/background.svg);
-    padding: 100px 40px 40px 40px;
+    background-size: cover;
     border-radius: 15px;
+    min-width: 750px;
+
+    padding: 100px 40px 40px 40px;
 }
 
 .main_section2 h1 {
     font-weight: lighter;
 }
 
+.main_section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
 
+.main_section3 a:nth-child(4) {
+    display: none;
+}
 
 
 .important {
@@ -96,12 +109,22 @@ button {
     nav img {
         display: none;
     }
+
+    .main_section3 a:nth-child(4) {
+        display: block;
+    }
 }
 
-
+/* .main_section3 a:nth-child(4) {
+    display: block;
+} */
 
 
 /* utils */
 .icon {
     width: 20px;
+}
+
+.link {
+    width: 130px;
 }

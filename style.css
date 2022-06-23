@@ -73,7 +73,7 @@ button {
     background-size: cover;
     border-radius: 15px;
     min-width: 750px;
-
+    margin-left: -40px;
     padding: 100px 40px 40px 40px;
 }
 
@@ -85,7 +85,7 @@ button {
 .main_section3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 40px 0;
 }
@@ -182,9 +182,41 @@ footer {
     color: #5e5e5e;
 }
 
+.bottom_navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    font-weight: bold;
+    padding: 0 30px;
+}
+
+li {
+    font-weight: 100;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+li a {
+    color: #5e5e5e;
+    text-decoration: none;
+}
+
 .bottom_container {
     display: flex;
     justify-content: space-between;
+    margin: 50px 0;
+}
+
+.bottom_container .right {
+    display: none;
+}
+
+.grey {
+    filter: grayscale(100%);
+    opacity: 55%;
+    margin-right: 15px;
 }
 
 .important {
@@ -205,19 +237,31 @@ footer {
         display: none;
     }
 
+    .main_section2 {
+        margin-left: 0;
+    }
+
     .main_section3 a:nth-child(4) {
+        display: block;
+    }
+
+    .upper_conteainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom_container .right {
         display: block;
     }
 }
 
-/* .main_section3 a:nth-child(4) {
-    display: block;
-} */
-
-
 /* utils */
 .icon {
     width: 20px;
+}
+
+.tiktok {
+    width: 15px;
 }
 
 .link {

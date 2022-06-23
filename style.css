@@ -27,7 +27,8 @@ nav a {
     margin-left: 20px;
 }
 
-.main_section1 {
+.main_section1,
+.main_section5 {
     display: flex;
     margin-bottom: 40px;
 }
@@ -103,6 +104,7 @@ button {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 30px;
+    padding-bottom: 100px;
 }
 
 .background {
@@ -119,7 +121,7 @@ button {
 
 .top_row {
     font-size: smaller;
-    color: #5e5e5e;
+    color: #999;
 }
 
 .middle_row {
@@ -128,7 +130,7 @@ button {
 }
 
 .bottom_row {
-    color: #5e5e5e;
+    color: #999;
 }
 
 .orange {
@@ -141,6 +143,48 @@ button {
 
 .right_column {
     text-align: right;
+}
+
+th {
+    height: 40px;
+}
+
+th img {
+    padding: 0 10px;
+}
+
+hr {
+    margin-bottom: 100px;
+}
+
+.main_section5 {
+    margin-bottom: -12px;
+}
+
+.main_section5 .content_side h1 {
+    font-size: 30px;
+}
+
+.main_section5 .content_side {
+    min-width: 150px;
+}
+
+#green {
+    max-width: 100%;
+    min-width: 200px;
+}
+
+.bottom_container {
+    color: #999;
+}
+
+footer {
+    color: #5e5e5e;
+}
+
+.bottom_container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .important {
